@@ -7,50 +7,35 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "2FEC5DB8-2066-4BE5-94D0-22424D24E876"
+            uuid = "F5989C3B-FB26-47E3-8A58-AB4D5F0167E7"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HelloAgainC/main.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "17"
-            endingLineNumber = "17"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
             landmarkName = "main(argc, argv)"
             landmarkType = "9">
             <Locations>
                <Location
-                  uuid = "2FEC5DB8-2066-4BE5-94D0-22424D24E876 - 23c40b7d54e15c14"
+                  uuid = "F5989C3B-FB26-47E3-8A58-AB4D5F0167E7 - 8e76d2c427fd306e"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "main"
-                  moduleName = "HelloAgainC"
+                  moduleName = "HelloAgainC-DEBUG-DEV"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/guy.mclean/Projects/HelloAgainC/HelloAgainC/main.cpp"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "12"
-                  endingLineNumber = "12"
-                  offsetFromSymbolStart = "116">
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "460">
                </Location>
                <Location
-                  uuid = "2FEC5DB8-2066-4BE5-94D0-22424D24E876 - 23c40b7d54e15caf"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "main"
-                  moduleName = "HelloAgainC"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/guy.mclean/Projects/HelloAgainC/HelloAgainC/main.cpp"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "17"
-                  endingLineNumber = "17"
-                  offsetFromSymbolStart = "152">
-               </Location>
-               <Location
-                  uuid = "2FEC5DB8-2066-4BE5-94D0-22424D24E876 - 605e4d6911bc65bf"
+                  uuid = "F5989C3B-FB26-47E3-8A58-AB4D5F0167E7 - 605e4d6911bc6490"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -60,9 +45,9 @@
                   urlString = "file:///Users/guy.mclean/Projects/HelloAgainC/HelloAgainC/main.cpp"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "17"
-                  endingLineNumber = "17"
-                  offsetFromSymbolStart = "152">
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "460">
                </Location>
             </Locations>
          </BreakpointContent>

@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EC39A94A2B028E0400DDFFE1"
-               BuildableName = "HelloAgainC"
-               BlueprintName = "HelloAgainC"
+               BlueprintIdentifier = "EC04904A2B256B9C007906CC"
+               BuildableName = "HelloAgainC-DEBUG"
+               BlueprintName = "HelloAgainC-DEBUG"
                ReferencedContainer = "container:HelloAgainC.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -44,9 +44,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EC39A94A2B028E0400DDFFE1"
-            BuildableName = "HelloAgainC"
-            BlueprintName = "HelloAgainC"
+            BlueprintIdentifier = "EC04904A2B256B9C007906CC"
+            BuildableName = "HelloAgainC-DEBUG"
+            BlueprintName = "HelloAgainC-DEBUG"
             ReferencedContainer = "container:HelloAgainC.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -63,16 +63,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EC39A94A2B028E0400DDFFE1"
-            BuildableName = "HelloAgainC"
-            BlueprintName = "HelloAgainC"
+            BlueprintIdentifier = "EC04904A2B256B9C007906CC"
+            BuildableName = "HelloAgainC-DEBUG"
+            BlueprintName = "HelloAgainC-DEBUG"
             ReferencedContainer = "container:HelloAgainC.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

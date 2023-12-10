@@ -7,21 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EC048F9B2B25659B007906CC /* libz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC048F432B25659B007906CC /* libz.a */; };
-		EC048F9C2B25659B007906CC /* libcurl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC048F442B25659B007906CC /* libcurl.a */; };
-		EC048F9D2B25659B007906CC /* libcpr.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC048F452B25659B007906CC /* libcpr.a */; };
-		EC048F9E2B25659B007906CC /* libz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC048F4B2B25659B007906CC /* libz.a */; };
-		EC048F9F2B25659B007906CC /* libcurl-d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC048F4C2B25659B007906CC /* libcurl-d.a */; };
-		EC048FA02B25659B007906CC /* libcpr.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC048F4D2B25659B007906CC /* libcpr.a */; };
 		EC048FA12B25659B007906CC /* string-formatter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC048F982B25659B007906CC /* string-formatter.cpp */; };
 		EC048FA22B25659B007906CC /* api-service.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC048F992B25659B007906CC /* api-service.cpp */; };
 		EC048FA32B25659B007906CC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC048F9A2B25659B007906CC /* main.cpp */; };
+		EC04904C2B256B9C007906CC /* string-formatter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC048F982B25659B007906CC /* string-formatter.cpp */; };
+		EC04904D2B256B9C007906CC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC048F9A2B25659B007906CC /* main.cpp */; };
+		EC04904E2B256B9C007906CC /* api-service.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC048F992B25659B007906CC /* api-service.cpp */; };
+		EC0490532B256B9C007906CC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5DD7522B183ACB004D19FE /* SystemConfiguration.framework */; };
+		EC0490542B256B9C007906CC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5DD7542B183B5E004D19FE /* Security.framework */; };
+		EC0490552B256B9C007906CC /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5DD7502B183A8D004D19FE /* CoreFoundation.framework */; };
+		EC04905B2B256BD7007906CC /* libcpr.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC048FF72B256B40007906CC /* libcpr.a */; };
+		EC04905C2B256BD7007906CC /* libcurl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC048FF62B256B40007906CC /* libcurl.a */; };
+		EC04905D2B256BD7007906CC /* libz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC048FF52B256B40007906CC /* libz.a */; };
+		EC04905E2B256E86007906CC /* libcpr.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC048FFF2B256B40007906CC /* libcpr.a */; };
+		EC04905F2B256E86007906CC /* libcurl-d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC048FFE2B256B40007906CC /* libcurl-d.a */; };
+		EC0490602B256E86007906CC /* libz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC048FFD2B256B40007906CC /* libz.a */; };
 		EC5DD7512B183A8D004D19FE /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5DD7502B183A8D004D19FE /* CoreFoundation.framework */; };
 		EC5DD7532B183ACB004D19FE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5DD7522B183ACB004D19FE /* SystemConfiguration.framework */; };
 		EC5DD7552B183B5E004D19FE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5DD7542B183B5E004D19FE /* Security.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		EC0490562B256B9C007906CC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		EC39A9492B028E0400DDFFE1 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -176,6 +191,142 @@
 		EC048F992B25659B007906CC /* api-service.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "api-service.cpp"; sourceTree = "<group>"; };
 		EC048F9A2B25659B007906CC /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EC048FA42B2567B1007906CC /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		EC048FAA2B256B40007906CC /* curl-config */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "curl-config"; sourceTree = "<group>"; };
+		EC048FAD2B256B40007906CC /* curl-config */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "curl-config"; sourceTree = "<group>"; };
+		EC048FB02B256B40007906CC /* filesystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = filesystem.h; sourceTree = "<group>"; };
+		EC048FB12B256B40007906CC /* error.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = error.h; sourceTree = "<group>"; };
+		EC048FB22B256B40007906CC /* local_port_range.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = local_port_range.h; sourceTree = "<group>"; };
+		EC048FB32B256B40007906CC /* range.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = range.h; sourceTree = "<group>"; };
+		EC048FB42B256B40007906CC /* response.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = response.h; sourceTree = "<group>"; };
+		EC048FB52B256B40007906CC /* cert_info.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cert_info.h; sourceTree = "<group>"; };
+		EC048FB62B256B40007906CC /* cprtypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cprtypes.h; sourceTree = "<group>"; };
+		EC048FB72B256B40007906CC /* interceptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = interceptor.h; sourceTree = "<group>"; };
+		EC048FB82B256B40007906CC /* connect_timeout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = connect_timeout.h; sourceTree = "<group>"; };
+		EC048FB92B256B40007906CC /* threadpool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = threadpool.h; sourceTree = "<group>"; };
+		EC048FBA2B256B40007906CC /* status_codes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = status_codes.h; sourceTree = "<group>"; };
+		EC048FBB2B256B40007906CC /* singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = singleton.h; sourceTree = "<group>"; };
+		EC048FBC2B256B40007906CC /* redirect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = redirect.h; sourceTree = "<group>"; };
+		EC048FBD2B256B40007906CC /* local_port.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = local_port.h; sourceTree = "<group>"; };
+		EC048FBE2B256B40007906CC /* http_version.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = http_version.h; sourceTree = "<group>"; };
+		EC048FBF2B256B40007906CC /* body.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = body.h; sourceTree = "<group>"; };
+		EC048FC02B256B40007906CC /* curlmultiholder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = curlmultiholder.h; sourceTree = "<group>"; };
+		EC048FC12B256B40007906CC /* verbose.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = verbose.h; sourceTree = "<group>"; };
+		EC048FC22B256B40007906CC /* payload.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = payload.h; sourceTree = "<group>"; };
+		EC048FC32B256B40007906CC /* multiperform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = multiperform.h; sourceTree = "<group>"; };
+		EC048FC42B256B40007906CC /* file.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = file.h; sourceTree = "<group>"; };
+		EC048FC52B256B40007906CC /* ssl_options.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ssl_options.h; sourceTree = "<group>"; };
+		EC048FC62B256B40007906CC /* cprver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cprver.h; sourceTree = "<group>"; };
+		EC048FC72B256B40007906CC /* limit_rate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = limit_rate.h; sourceTree = "<group>"; };
+		EC048FC82B256B40007906CC /* ssl_ctx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ssl_ctx.h; sourceTree = "<group>"; };
+		EC048FC92B256B40007906CC /* bearer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bearer.h; sourceTree = "<group>"; };
+		EC048FCA2B256B40007906CC /* interface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = interface.h; sourceTree = "<group>"; };
+		EC048FCB2B256B40007906CC /* api.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = api.h; sourceTree = "<group>"; };
+		EC048FCC2B256B40007906CC /* async.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = async.h; sourceTree = "<group>"; };
+		EC048FCD2B256B40007906CC /* buffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = buffer.h; sourceTree = "<group>"; };
+		EC048FCE2B256B40007906CC /* session.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = session.h; sourceTree = "<group>"; };
+		EC048FCF2B256B40007906CC /* parameters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = parameters.h; sourceTree = "<group>"; };
+		EC048FD02B256B40007906CC /* curl_container.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = curl_container.h; sourceTree = "<group>"; };
+		EC048FD12B256B40007906CC /* util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		EC048FD22B256B40007906CC /* curlholder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = curlholder.h; sourceTree = "<group>"; };
+		EC048FD32B256B40007906CC /* auth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = auth.h; sourceTree = "<group>"; };
+		EC048FD42B256B40007906CC /* proxies.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = proxies.h; sourceTree = "<group>"; };
+		EC048FD52B256B40007906CC /* cookies.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cookies.h; sourceTree = "<group>"; };
+		EC048FD62B256B40007906CC /* resolve.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = resolve.h; sourceTree = "<group>"; };
+		EC048FD72B256B40007906CC /* reserve_size.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = reserve_size.h; sourceTree = "<group>"; };
+		EC048FD82B256B40007906CC /* multipart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = multipart.h; sourceTree = "<group>"; };
+		EC048FD92B256B40007906CC /* timeout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = timeout.h; sourceTree = "<group>"; };
+		EC048FDA2B256B40007906CC /* callback.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = callback.h; sourceTree = "<group>"; };
+		EC048FDB2B256B40007906CC /* low_speed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = low_speed.h; sourceTree = "<group>"; };
+		EC048FDC2B256B40007906CC /* proxyauth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = proxyauth.h; sourceTree = "<group>"; };
+		EC048FDD2B256B40007906CC /* accept_encoding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = accept_encoding.h; sourceTree = "<group>"; };
+		EC048FDE2B256B40007906CC /* async_wrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = async_wrapper.h; sourceTree = "<group>"; };
+		EC048FDF2B256B40007906CC /* unix_socket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = unix_socket.h; sourceTree = "<group>"; };
+		EC048FE02B256B40007906CC /* user_agent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = user_agent.h; sourceTree = "<group>"; };
+		EC048FE12B256B40007906CC /* cpr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cpr.h; sourceTree = "<group>"; };
+		EC048FE32B256B40007906CC /* stdcheaders.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stdcheaders.h; sourceTree = "<group>"; };
+		EC048FE42B256B40007906CC /* header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = header.h; sourceTree = "<group>"; };
+		EC048FE52B256B40007906CC /* options.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = options.h; sourceTree = "<group>"; };
+		EC048FE62B256B40007906CC /* mprintf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mprintf.h; sourceTree = "<group>"; };
+		EC048FE72B256B40007906CC /* easy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = easy.h; sourceTree = "<group>"; };
+		EC048FE82B256B40007906CC /* curl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = curl.h; sourceTree = "<group>"; };
+		EC048FE92B256B40007906CC /* websockets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = websockets.h; sourceTree = "<group>"; };
+		EC048FEA2B256B40007906CC /* curlver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = curlver.h; sourceTree = "<group>"; };
+		EC048FEB2B256B40007906CC /* system.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = system.h; sourceTree = "<group>"; };
+		EC048FEC2B256B40007906CC /* typecheck-gcc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "typecheck-gcc.h"; sourceTree = "<group>"; };
+		EC048FED2B256B40007906CC /* multi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = multi.h; sourceTree = "<group>"; };
+		EC048FEE2B256B40007906CC /* urlapi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = urlapi.h; sourceTree = "<group>"; };
+		EC048FEF2B256B40007906CC /* zlib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zlib.h; sourceTree = "<group>"; };
+		EC048FF02B256B40007906CC /* zconf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zconf.h; sourceTree = "<group>"; };
+		EC048FF32B256B40007906CC /* libcurl.pc */ = {isa = PBXFileReference; lastKnownFileType = text; path = libcurl.pc; sourceTree = "<group>"; };
+		EC048FF42B256B40007906CC /* zlib.pc */ = {isa = PBXFileReference; lastKnownFileType = text; path = zlib.pc; sourceTree = "<group>"; };
+		EC048FF52B256B40007906CC /* libz.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libz.a; sourceTree = "<group>"; };
+		EC048FF62B256B40007906CC /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcurl.a; sourceTree = "<group>"; };
+		EC048FF72B256B40007906CC /* libcpr.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcpr.a; sourceTree = "<group>"; };
+		EC048FFB2B256B40007906CC /* libcurl.pc */ = {isa = PBXFileReference; lastKnownFileType = text; path = libcurl.pc; sourceTree = "<group>"; };
+		EC048FFC2B256B40007906CC /* zlib.pc */ = {isa = PBXFileReference; lastKnownFileType = text; path = zlib.pc; sourceTree = "<group>"; };
+		EC048FFD2B256B40007906CC /* libz.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libz.a; sourceTree = "<group>"; };
+		EC048FFE2B256B40007906CC /* libcurl-d.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libcurl-d.a"; sourceTree = "<group>"; };
+		EC048FFF2B256B40007906CC /* libcpr.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcpr.a; sourceTree = "<group>"; };
+		EC0490022B256B40007906CC /* cprTargets.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = cprTargets.cmake; sourceTree = "<group>"; };
+		EC0490032B256B40007906CC /* vcpkg.spdx.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = vcpkg.spdx.json; sourceTree = "<group>"; };
+		EC0490042B256B40007906CC /* cprTargets-release.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = "cprTargets-release.cmake"; sourceTree = "<group>"; };
+		EC0490052B256B40007906CC /* cprConfigVersion.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = cprConfigVersion.cmake; sourceTree = "<group>"; };
+		EC0490062B256B40007906CC /* cprConfig.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = cprConfig.cmake; sourceTree = "<group>"; };
+		EC0490072B256B40007906CC /* vcpkg_abi_info.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = vcpkg_abi_info.txt; sourceTree = "<group>"; };
+		EC0490082B256B40007906CC /* copyright */ = {isa = PBXFileReference; lastKnownFileType = text; path = copyright; sourceTree = "<group>"; };
+		EC0490092B256B40007906CC /* cprTargets-debug.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = "cprTargets-debug.cmake"; sourceTree = "<group>"; };
+		EC04900B2B256B40007906CC /* vcpkg.spdx.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = vcpkg.spdx.json; sourceTree = "<group>"; };
+		EC04900C2B256B40007906CC /* vcpkg_abi_info.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = vcpkg_abi_info.txt; sourceTree = "<group>"; };
+		EC04900D2B256B40007906CC /* copyright */ = {isa = PBXFileReference; lastKnownFileType = text; path = copyright; sourceTree = "<group>"; };
+		EC04900E2B256B40007906CC /* vcpkg_cmake_config_fixup.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = vcpkg_cmake_config_fixup.cmake; sourceTree = "<group>"; };
+		EC04900F2B256B40007906CC /* vcpkg-port-config.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = "vcpkg-port-config.cmake"; sourceTree = "<group>"; };
+		EC0490112B256B40007906CC /* vcpkg_cmake_install.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = vcpkg_cmake_install.cmake; sourceTree = "<group>"; };
+		EC0490122B256B40007906CC /* vcpkg.spdx.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = vcpkg.spdx.json; sourceTree = "<group>"; };
+		EC0490132B256B40007906CC /* vcpkg_cmake_build.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = vcpkg_cmake_build.cmake; sourceTree = "<group>"; };
+		EC0490142B256B40007906CC /* vcpkg_abi_info.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = vcpkg_abi_info.txt; sourceTree = "<group>"; };
+		EC0490152B256B40007906CC /* vcpkg_cmake_configure.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = vcpkg_cmake_configure.cmake; sourceTree = "<group>"; };
+		EC0490162B256B40007906CC /* copyright */ = {isa = PBXFileReference; lastKnownFileType = text; path = copyright; sourceTree = "<group>"; };
+		EC0490172B256B40007906CC /* vcpkg-port-config.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = "vcpkg-port-config.cmake"; sourceTree = "<group>"; };
+		EC0490192B256B40007906CC /* vcpkg.spdx.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = vcpkg.spdx.json; sourceTree = "<group>"; };
+		EC04901A2B256B40007906CC /* usage */ = {isa = PBXFileReference; lastKnownFileType = text; path = usage; sourceTree = "<group>"; };
+		EC04901B2B256B40007906CC /* vcpkg_abi_info.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = vcpkg_abi_info.txt; sourceTree = "<group>"; };
+		EC04901C2B256B40007906CC /* copyright */ = {isa = PBXFileReference; lastKnownFileType = text; path = copyright; sourceTree = "<group>"; };
+		EC04901D2B256B40007906CC /* vcpkg-cmake-wrapper.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = "vcpkg-cmake-wrapper.cmake"; sourceTree = "<group>"; };
+		EC04901F2B256B40007906CC /* CURLTargets-release.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = "CURLTargets-release.cmake"; sourceTree = "<group>"; };
+		EC0490202B256B40007906CC /* CURLConfig.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = CURLConfig.cmake; sourceTree = "<group>"; };
+		EC0490212B256B40007906CC /* vcpkg.spdx.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = vcpkg.spdx.json; sourceTree = "<group>"; };
+		EC0490222B256B40007906CC /* CURLTargets-debug.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = "CURLTargets-debug.cmake"; sourceTree = "<group>"; };
+		EC0490232B256B40007906CC /* usage */ = {isa = PBXFileReference; lastKnownFileType = text; path = usage; sourceTree = "<group>"; };
+		EC0490242B256B40007906CC /* vcpkg_abi_info.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = vcpkg_abi_info.txt; sourceTree = "<group>"; };
+		EC0490252B256B40007906CC /* CURLConfigVersion.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = CURLConfigVersion.cmake; sourceTree = "<group>"; };
+		EC0490262B256B40007906CC /* CURLTargets.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = CURLTargets.cmake; sourceTree = "<group>"; };
+		EC0490272B256B40007906CC /* CURLConfigComponents.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = CURLConfigComponents.cmake; sourceTree = "<group>"; };
+		EC0490282B256B40007906CC /* copyright */ = {isa = PBXFileReference; lastKnownFileType = text; path = copyright; sourceTree = "<group>"; };
+		EC0490292B256B40007906CC /* vcpkg-cmake-wrapper.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = "vcpkg-cmake-wrapper.cmake"; sourceTree = "<group>"; };
+		EC04902C2B256B40007906CC /* 0000000008 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 0000000008; sourceTree = "<group>"; };
+		EC04902D2B256B40007906CC /* 0000000001 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 0000000001; sourceTree = "<group>"; };
+		EC04902E2B256B40007906CC /* 0000000006 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 0000000006; sourceTree = "<group>"; };
+		EC04902F2B256B40007906CC /* 0000000007 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 0000000007; sourceTree = "<group>"; };
+		EC0490302B256B40007906CC /* 0000000000 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 0000000000; sourceTree = "<group>"; };
+		EC0490312B256B40007906CC /* 0000000009 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 0000000009; sourceTree = "<group>"; };
+		EC0490322B256B40007906CC /* 0000000013 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 0000000013; sourceTree = "<group>"; };
+		EC0490332B256B40007906CC /* 0000000014 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 0000000014; sourceTree = "<group>"; };
+		EC0490342B256B40007906CC /* 0000000015 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 0000000015; sourceTree = "<group>"; };
+		EC0490352B256B40007906CC /* 0000000012 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 0000000012; sourceTree = "<group>"; };
+		EC0490362B256B40007906CC /* 0000000005 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 0000000005; sourceTree = "<group>"; };
+		EC0490372B256B40007906CC /* 0000000002 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 0000000002; sourceTree = "<group>"; };
+		EC0490382B256B40007906CC /* 0000000003 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 0000000003; sourceTree = "<group>"; };
+		EC0490392B256B40007906CC /* 0000000004 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 0000000004; sourceTree = "<group>"; };
+		EC04903A2B256B40007906CC /* 0000000017 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 0000000017; sourceTree = "<group>"; };
+		EC04903B2B256B40007906CC /* 0000000010 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 0000000010; sourceTree = "<group>"; };
+		EC04903C2B256B40007906CC /* 0000000011 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 0000000011; sourceTree = "<group>"; };
+		EC04903D2B256B40007906CC /* 0000000016 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 0000000016; sourceTree = "<group>"; };
+		EC04903F2B256B40007906CC /* zlib_1.3_arm64-osx.list */ = {isa = PBXFileReference; lastKnownFileType = text; path = "zlib_1.3_arm64-osx.list"; sourceTree = "<group>"; };
+		EC0490402B256B40007906CC /* curl_8.4.0_arm64-osx.list */ = {isa = PBXFileReference; lastKnownFileType = text; path = "curl_8.4.0_arm64-osx.list"; sourceTree = "<group>"; };
+		EC0490412B256B40007906CC /* vcpkg-cmake_2023-05-04_arm64-osx.list */ = {isa = PBXFileReference; lastKnownFileType = text; path = "vcpkg-cmake_2023-05-04_arm64-osx.list"; sourceTree = "<group>"; };
+		EC0490422B256B40007906CC /* vcpkg-cmake-config_2022-02-06_arm64-osx.list */ = {isa = PBXFileReference; lastKnownFileType = text; path = "vcpkg-cmake-config_2022-02-06_arm64-osx.list"; sourceTree = "<group>"; };
+		EC0490432B256B40007906CC /* cpr_1.10.5_arm64-osx.list */ = {isa = PBXFileReference; lastKnownFileType = text; path = "cpr_1.10.5_arm64-osx.list"; sourceTree = "<group>"; };
+		EC04905A2B256B9C007906CC /* HelloAgainC-DEBUG-DEV */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "HelloAgainC-DEBUG-DEV"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC39A94B2B028E0400DDFFE1 /* HelloAgainC-DEV */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "HelloAgainC-DEV"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC5DD7502B183A8D004D19FE /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		EC5DD7522B183ACB004D19FE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -183,19 +334,29 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		EC04904F2B256B9C007906CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC04905E2B256E86007906CC /* libcpr.a in Frameworks */,
+				EC04905F2B256E86007906CC /* libcurl-d.a in Frameworks */,
+				EC0490602B256E86007906CC /* libz.a in Frameworks */,
+				EC0490532B256B9C007906CC /* SystemConfiguration.framework in Frameworks */,
+				EC0490542B256B9C007906CC /* Security.framework in Frameworks */,
+				EC0490552B256B9C007906CC /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EC39A9482B028E0400DDFFE1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC048F9F2B25659B007906CC /* libcurl-d.a in Frameworks */,
-				EC048F9C2B25659B007906CC /* libcurl.a in Frameworks */,
-				EC048FA02B25659B007906CC /* libcpr.a in Frameworks */,
-				EC5DD7512B183A8D004D19FE /* CoreFoundation.framework in Frameworks */,
-				EC5DD7552B183B5E004D19FE /* Security.framework in Frameworks */,
-				EC048F9B2B25659B007906CC /* libz.a in Frameworks */,
+				EC04905B2B256BD7007906CC /* libcpr.a in Frameworks */,
+				EC04905C2B256BD7007906CC /* libcurl.a in Frameworks */,
+				EC04905D2B256BD7007906CC /* libz.a in Frameworks */,
 				EC5DD7532B183ACB004D19FE /* SystemConfiguration.framework in Frameworks */,
-				EC048F9E2B25659B007906CC /* libz.a in Frameworks */,
-				EC048F9D2B25659B007906CC /* libcpr.a in Frameworks */,
+				EC5DD7552B183B5E004D19FE /* Security.framework in Frameworks */,
+				EC5DD7512B183A8D004D19FE /* CoreFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -541,7 +702,6 @@
 			isa = PBXGroup;
 			children = (
 				EC048F972B25659B007906CC /* utils */,
-				EC048F9A2B25659B007906CC /* main.cpp */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -553,6 +713,333 @@
 				EC048F992B25659B007906CC /* api-service.cpp */,
 			);
 			path = utils;
+			sourceTree = "<group>";
+		};
+		EC048FA52B256B40007906CC /* vcpkg_installed */ = {
+			isa = PBXGroup;
+			children = (
+				EC048FA62B256B40007906CC /* arm64-osx */,
+				EC04902A2B256B40007906CC /* vcpkg */,
+			);
+			name = vcpkg_installed;
+			path = HelloAgainC/vcpkg_installed;
+			sourceTree = "<group>";
+		};
+		EC048FA62B256B40007906CC /* arm64-osx */ = {
+			isa = PBXGroup;
+			children = (
+				EC048FA72B256B40007906CC /* tools */,
+				EC048FAE2B256B40007906CC /* include */,
+				EC048FF12B256B40007906CC /* lib */,
+				EC048FF82B256B40007906CC /* debug */,
+				EC0490002B256B40007906CC /* share */,
+			);
+			path = "arm64-osx";
+			sourceTree = "<group>";
+		};
+		EC048FA72B256B40007906CC /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				EC048FA82B256B40007906CC /* curl */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+		EC048FA82B256B40007906CC /* curl */ = {
+			isa = PBXGroup;
+			children = (
+				EC048FA92B256B40007906CC /* bin */,
+				EC048FAB2B256B40007906CC /* debug */,
+			);
+			path = curl;
+			sourceTree = "<group>";
+		};
+		EC048FA92B256B40007906CC /* bin */ = {
+			isa = PBXGroup;
+			children = (
+				EC048FAA2B256B40007906CC /* curl-config */,
+			);
+			path = bin;
+			sourceTree = "<group>";
+		};
+		EC048FAB2B256B40007906CC /* debug */ = {
+			isa = PBXGroup;
+			children = (
+				EC048FAC2B256B40007906CC /* bin */,
+			);
+			path = debug;
+			sourceTree = "<group>";
+		};
+		EC048FAC2B256B40007906CC /* bin */ = {
+			isa = PBXGroup;
+			children = (
+				EC048FAD2B256B40007906CC /* curl-config */,
+			);
+			path = bin;
+			sourceTree = "<group>";
+		};
+		EC048FAE2B256B40007906CC /* include */ = {
+			isa = PBXGroup;
+			children = (
+				EC048FAF2B256B40007906CC /* cpr */,
+				EC048FE22B256B40007906CC /* curl */,
+				EC048FEF2B256B40007906CC /* zlib.h */,
+				EC048FF02B256B40007906CC /* zconf.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		EC048FAF2B256B40007906CC /* cpr */ = {
+			isa = PBXGroup;
+			children = (
+				EC048FB02B256B40007906CC /* filesystem.h */,
+				EC048FB12B256B40007906CC /* error.h */,
+				EC048FB22B256B40007906CC /* local_port_range.h */,
+				EC048FB32B256B40007906CC /* range.h */,
+				EC048FB42B256B40007906CC /* response.h */,
+				EC048FB52B256B40007906CC /* cert_info.h */,
+				EC048FB62B256B40007906CC /* cprtypes.h */,
+				EC048FB72B256B40007906CC /* interceptor.h */,
+				EC048FB82B256B40007906CC /* connect_timeout.h */,
+				EC048FB92B256B40007906CC /* threadpool.h */,
+				EC048FBA2B256B40007906CC /* status_codes.h */,
+				EC048FBB2B256B40007906CC /* singleton.h */,
+				EC048FBC2B256B40007906CC /* redirect.h */,
+				EC048FBD2B256B40007906CC /* local_port.h */,
+				EC048FBE2B256B40007906CC /* http_version.h */,
+				EC048FBF2B256B40007906CC /* body.h */,
+				EC048FC02B256B40007906CC /* curlmultiholder.h */,
+				EC048FC12B256B40007906CC /* verbose.h */,
+				EC048FC22B256B40007906CC /* payload.h */,
+				EC048FC32B256B40007906CC /* multiperform.h */,
+				EC048FC42B256B40007906CC /* file.h */,
+				EC048FC52B256B40007906CC /* ssl_options.h */,
+				EC048FC62B256B40007906CC /* cprver.h */,
+				EC048FC72B256B40007906CC /* limit_rate.h */,
+				EC048FC82B256B40007906CC /* ssl_ctx.h */,
+				EC048FC92B256B40007906CC /* bearer.h */,
+				EC048FCA2B256B40007906CC /* interface.h */,
+				EC048FCB2B256B40007906CC /* api.h */,
+				EC048FCC2B256B40007906CC /* async.h */,
+				EC048FCD2B256B40007906CC /* buffer.h */,
+				EC048FCE2B256B40007906CC /* session.h */,
+				EC048FCF2B256B40007906CC /* parameters.h */,
+				EC048FD02B256B40007906CC /* curl_container.h */,
+				EC048FD12B256B40007906CC /* util.h */,
+				EC048FD22B256B40007906CC /* curlholder.h */,
+				EC048FD32B256B40007906CC /* auth.h */,
+				EC048FD42B256B40007906CC /* proxies.h */,
+				EC048FD52B256B40007906CC /* cookies.h */,
+				EC048FD62B256B40007906CC /* resolve.h */,
+				EC048FD72B256B40007906CC /* reserve_size.h */,
+				EC048FD82B256B40007906CC /* multipart.h */,
+				EC048FD92B256B40007906CC /* timeout.h */,
+				EC048FDA2B256B40007906CC /* callback.h */,
+				EC048FDB2B256B40007906CC /* low_speed.h */,
+				EC048FDC2B256B40007906CC /* proxyauth.h */,
+				EC048FDD2B256B40007906CC /* accept_encoding.h */,
+				EC048FDE2B256B40007906CC /* async_wrapper.h */,
+				EC048FDF2B256B40007906CC /* unix_socket.h */,
+				EC048FE02B256B40007906CC /* user_agent.h */,
+				EC048FE12B256B40007906CC /* cpr.h */,
+			);
+			path = cpr;
+			sourceTree = "<group>";
+		};
+		EC048FE22B256B40007906CC /* curl */ = {
+			isa = PBXGroup;
+			children = (
+				EC048FE32B256B40007906CC /* stdcheaders.h */,
+				EC048FE42B256B40007906CC /* header.h */,
+				EC048FE52B256B40007906CC /* options.h */,
+				EC048FE62B256B40007906CC /* mprintf.h */,
+				EC048FE72B256B40007906CC /* easy.h */,
+				EC048FE82B256B40007906CC /* curl.h */,
+				EC048FE92B256B40007906CC /* websockets.h */,
+				EC048FEA2B256B40007906CC /* curlver.h */,
+				EC048FEB2B256B40007906CC /* system.h */,
+				EC048FEC2B256B40007906CC /* typecheck-gcc.h */,
+				EC048FED2B256B40007906CC /* multi.h */,
+				EC048FEE2B256B40007906CC /* urlapi.h */,
+			);
+			path = curl;
+			sourceTree = "<group>";
+		};
+		EC048FF12B256B40007906CC /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				EC048FF22B256B40007906CC /* pkgconfig */,
+				EC048FF52B256B40007906CC /* libz.a */,
+				EC048FF62B256B40007906CC /* libcurl.a */,
+				EC048FF72B256B40007906CC /* libcpr.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		EC048FF22B256B40007906CC /* pkgconfig */ = {
+			isa = PBXGroup;
+			children = (
+				EC048FF32B256B40007906CC /* libcurl.pc */,
+				EC048FF42B256B40007906CC /* zlib.pc */,
+			);
+			path = pkgconfig;
+			sourceTree = "<group>";
+		};
+		EC048FF82B256B40007906CC /* debug */ = {
+			isa = PBXGroup;
+			children = (
+				EC048FF92B256B40007906CC /* lib */,
+			);
+			path = debug;
+			sourceTree = "<group>";
+		};
+		EC048FF92B256B40007906CC /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				EC048FFA2B256B40007906CC /* pkgconfig */,
+				EC048FFD2B256B40007906CC /* libz.a */,
+				EC048FFE2B256B40007906CC /* libcurl-d.a */,
+				EC048FFF2B256B40007906CC /* libcpr.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		EC048FFA2B256B40007906CC /* pkgconfig */ = {
+			isa = PBXGroup;
+			children = (
+				EC048FFB2B256B40007906CC /* libcurl.pc */,
+				EC048FFC2B256B40007906CC /* zlib.pc */,
+			);
+			path = pkgconfig;
+			sourceTree = "<group>";
+		};
+		EC0490002B256B40007906CC /* share */ = {
+			isa = PBXGroup;
+			children = (
+				EC0490012B256B40007906CC /* cpr */,
+				EC04900A2B256B40007906CC /* vcpkg-cmake-config */,
+				EC0490102B256B40007906CC /* vcpkg-cmake */,
+				EC0490182B256B40007906CC /* zlib */,
+				EC04901E2B256B40007906CC /* curl */,
+			);
+			path = share;
+			sourceTree = "<group>";
+		};
+		EC0490012B256B40007906CC /* cpr */ = {
+			isa = PBXGroup;
+			children = (
+				EC0490022B256B40007906CC /* cprTargets.cmake */,
+				EC0490032B256B40007906CC /* vcpkg.spdx.json */,
+				EC0490042B256B40007906CC /* cprTargets-release.cmake */,
+				EC0490052B256B40007906CC /* cprConfigVersion.cmake */,
+				EC0490062B256B40007906CC /* cprConfig.cmake */,
+				EC0490072B256B40007906CC /* vcpkg_abi_info.txt */,
+				EC0490082B256B40007906CC /* copyright */,
+				EC0490092B256B40007906CC /* cprTargets-debug.cmake */,
+			);
+			path = cpr;
+			sourceTree = "<group>";
+		};
+		EC04900A2B256B40007906CC /* vcpkg-cmake-config */ = {
+			isa = PBXGroup;
+			children = (
+				EC04900B2B256B40007906CC /* vcpkg.spdx.json */,
+				EC04900C2B256B40007906CC /* vcpkg_abi_info.txt */,
+				EC04900D2B256B40007906CC /* copyright */,
+				EC04900E2B256B40007906CC /* vcpkg_cmake_config_fixup.cmake */,
+				EC04900F2B256B40007906CC /* vcpkg-port-config.cmake */,
+			);
+			path = "vcpkg-cmake-config";
+			sourceTree = "<group>";
+		};
+		EC0490102B256B40007906CC /* vcpkg-cmake */ = {
+			isa = PBXGroup;
+			children = (
+				EC0490112B256B40007906CC /* vcpkg_cmake_install.cmake */,
+				EC0490122B256B40007906CC /* vcpkg.spdx.json */,
+				EC0490132B256B40007906CC /* vcpkg_cmake_build.cmake */,
+				EC0490142B256B40007906CC /* vcpkg_abi_info.txt */,
+				EC0490152B256B40007906CC /* vcpkg_cmake_configure.cmake */,
+				EC0490162B256B40007906CC /* copyright */,
+				EC0490172B256B40007906CC /* vcpkg-port-config.cmake */,
+			);
+			path = "vcpkg-cmake";
+			sourceTree = "<group>";
+		};
+		EC0490182B256B40007906CC /* zlib */ = {
+			isa = PBXGroup;
+			children = (
+				EC0490192B256B40007906CC /* vcpkg.spdx.json */,
+				EC04901A2B256B40007906CC /* usage */,
+				EC04901B2B256B40007906CC /* vcpkg_abi_info.txt */,
+				EC04901C2B256B40007906CC /* copyright */,
+				EC04901D2B256B40007906CC /* vcpkg-cmake-wrapper.cmake */,
+			);
+			path = zlib;
+			sourceTree = "<group>";
+		};
+		EC04901E2B256B40007906CC /* curl */ = {
+			isa = PBXGroup;
+			children = (
+				EC04901F2B256B40007906CC /* CURLTargets-release.cmake */,
+				EC0490202B256B40007906CC /* CURLConfig.cmake */,
+				EC0490212B256B40007906CC /* vcpkg.spdx.json */,
+				EC0490222B256B40007906CC /* CURLTargets-debug.cmake */,
+				EC0490232B256B40007906CC /* usage */,
+				EC0490242B256B40007906CC /* vcpkg_abi_info.txt */,
+				EC0490252B256B40007906CC /* CURLConfigVersion.cmake */,
+				EC0490262B256B40007906CC /* CURLTargets.cmake */,
+				EC0490272B256B40007906CC /* CURLConfigComponents.cmake */,
+				EC0490282B256B40007906CC /* copyright */,
+				EC0490292B256B40007906CC /* vcpkg-cmake-wrapper.cmake */,
+			);
+			path = curl;
+			sourceTree = "<group>";
+		};
+		EC04902A2B256B40007906CC /* vcpkg */ = {
+			isa = PBXGroup;
+			children = (
+				EC04902B2B256B40007906CC /* updates */,
+				EC04903E2B256B40007906CC /* info */,
+			);
+			path = vcpkg;
+			sourceTree = "<group>";
+		};
+		EC04902B2B256B40007906CC /* updates */ = {
+			isa = PBXGroup;
+			children = (
+				EC04902C2B256B40007906CC /* 0000000008 */,
+				EC04902D2B256B40007906CC /* 0000000001 */,
+				EC04902E2B256B40007906CC /* 0000000006 */,
+				EC04902F2B256B40007906CC /* 0000000007 */,
+				EC0490302B256B40007906CC /* 0000000000 */,
+				EC0490312B256B40007906CC /* 0000000009 */,
+				EC0490322B256B40007906CC /* 0000000013 */,
+				EC0490332B256B40007906CC /* 0000000014 */,
+				EC0490342B256B40007906CC /* 0000000015 */,
+				EC0490352B256B40007906CC /* 0000000012 */,
+				EC0490362B256B40007906CC /* 0000000005 */,
+				EC0490372B256B40007906CC /* 0000000002 */,
+				EC0490382B256B40007906CC /* 0000000003 */,
+				EC0490392B256B40007906CC /* 0000000004 */,
+				EC04903A2B256B40007906CC /* 0000000017 */,
+				EC04903B2B256B40007906CC /* 0000000010 */,
+				EC04903C2B256B40007906CC /* 0000000011 */,
+				EC04903D2B256B40007906CC /* 0000000016 */,
+			);
+			path = updates;
+			sourceTree = "<group>";
+		};
+		EC04903E2B256B40007906CC /* info */ = {
+			isa = PBXGroup;
+			children = (
+				EC04903F2B256B40007906CC /* zlib_1.3_arm64-osx.list */,
+				EC0490402B256B40007906CC /* curl_8.4.0_arm64-osx.list */,
+				EC0490412B256B40007906CC /* vcpkg-cmake_2023-05-04_arm64-osx.list */,
+				EC0490422B256B40007906CC /* vcpkg-cmake-config_2022-02-06_arm64-osx.list */,
+				EC0490432B256B40007906CC /* cpr_1.10.5_arm64-osx.list */,
+			);
+			path = info;
 			sourceTree = "<group>";
 		};
 		EC39A9422B028E0400DDFFE1 = {
@@ -569,6 +1056,7 @@
 			isa = PBXGroup;
 			children = (
 				EC39A94B2B028E0400DDFFE1 /* HelloAgainC-DEV */,
+				EC04905A2B256B9C007906CC /* HelloAgainC-DEBUG-DEV */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -576,6 +1064,7 @@
 		EC39A94D2B028E0400DDFFE1 /* HelloAgainC */ = {
 			isa = PBXGroup;
 			children = (
+				EC048F9A2B25659B007906CC /* main.cpp */,
 				EC048F922B25659B007906CC /* includes */,
 				EC048F962B25659B007906CC /* src */,
 				EC048EF32B25659B007906CC /* vcpkg_installed */,
@@ -587,6 +1076,7 @@
 		EC5DD7332B183286004D19FE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EC048FA52B256B40007906CC /* vcpkg_installed */,
 				EC5DD7542B183B5E004D19FE /* Security.framework */,
 				EC5DD7522B183ACB004D19FE /* SystemConfiguration.framework */,
 				EC5DD7502B183A8D004D19FE /* CoreFoundation.framework */,
@@ -597,6 +1087,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		EC04904A2B256B9C007906CC /* HelloAgainC-DEBUG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC0490572B256B9C007906CC /* Build configuration list for PBXNativeTarget "HelloAgainC-DEBUG" */;
+			buildPhases = (
+				EC04904B2B256B9C007906CC /* Sources */,
+				EC04904F2B256B9C007906CC /* Frameworks */,
+				EC0490562B256B9C007906CC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HelloAgainC-DEBUG";
+			productName = HelloAgainC;
+			productReference = EC04905A2B256B9C007906CC /* HelloAgainC-DEBUG-DEV */;
+			productType = "com.apple.product-type.tool";
+		};
 		EC39A94A2B028E0400DDFFE1 /* HelloAgainC */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC39A9522B028E0400DDFFE1 /* Build configuration list for PBXNativeTarget "HelloAgainC" */;
@@ -642,11 +1149,22 @@
 			projectRoot = "";
 			targets = (
 				EC39A94A2B028E0400DDFFE1 /* HelloAgainC */,
+				EC04904A2B256B9C007906CC /* HelloAgainC-DEBUG */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		EC04904B2B256B9C007906CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC04904C2B256B9C007906CC /* string-formatter.cpp in Sources */,
+				EC04904D2B256B9C007906CC /* main.cpp in Sources */,
+				EC04904E2B256B9C007906CC /* api-service.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EC39A9472B028E0400DDFFE1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -660,6 +1178,28 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		EC0490582B256B9C007906CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				"HEADER_SEARCH_PATHS[arch=*]" = "$PROJECT_DIR/HelloAgainC/vcpkg_installed/arm64-osx/include/**";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/HelloAgainC/vcpkg_installed/arm64-osx/debug/lib";
+				"LIBRARY_SEARCH_PATHS[arch=*]" = "$PROJECT_DIR/HelloAgainC/vcpkg_installed/arm64-osx/debug/lib/**";
+				PRODUCT_NAME = "$(TARGET_NAME)-DEV";
+			};
+			name = Debug;
+		};
+		EC0490592B256B9C007906CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				"HEADER_SEARCH_PATHS[arch=*]" = "$PROJECT_DIR/HelloAgainC/vcpkg_installed/arm64-osx/include/**";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/HelloAgainC/vcpkg_installed/arm64-osx/lib";
+				"LIBRARY_SEARCH_PATHS[arch=*]" = "$PROJECT_DIR/HelloAgainC/vcpkg_installed/arm64-osx/lib/**";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		EC39A9502B028E0400DDFFE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -712,10 +1252,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "$PROJECT_DIR/HelloAgainC/vcpkg_installed/arm64-osx/include/**";
-				"HEADER_SEARCH_PATHS[arch=*]" = "$PROJECT_DIR/HelloAgainC/vcpkg_installed/arm64-osx/include/**";
-				LIBRARY_SEARCH_PATHS = "$PROJECT_DIR/HelloAgainC/vcpkg_installed/arm64-osx/debug/lib/**";
-				"LIBRARY_SEARCH_PATHS[arch=*]" = "$PROJECT_DIR/HelloAgainC/vcpkg_installed/arm64-osx/debug/lib/**";
+				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "";
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 13.6;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -771,10 +1309,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "$PROJECT_DIR/HelloAgainC/vcpkg_installed/arm64-osx/include/**";
-				"HEADER_SEARCH_PATHS[arch=*]" = "$PROJECT_DIR/HelloAgainC/vcpkg_installed/arm64-osx/include/**";
-				LIBRARY_SEARCH_PATHS = "$PROJECT_DIR/HelloAgainC/vcpkg_installed/arm64-osx/lib/**";
-				"LIBRARY_SEARCH_PATHS[arch=*]" = "$PROJECT_DIR/HelloAgainC/vcpkg_installed/arm64-osx/lib/**";
+				HEADER_SEARCH_PATHS = "";
+				"HEADER_SEARCH_PATHS[arch=*]" = "";
+				LIBRARY_SEARCH_PATHS = "";
+				"LIBRARY_SEARCH_PATHS[arch=*]" = "";
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 13.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -788,12 +1326,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				"HEADER_SEARCH_PATHS[arch=*]" = "$PROJECT_DIR/HelloAgainC/vcpkg_installed/arm64-osx/include/**";
-				LIBRARY_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/HelloAgainC/vcpkg_installed/arm64-osx/lib",
-					"$(PROJECT_DIR)/HelloAgainC/vcpkg_installed/arm64-osx/debug/lib",
-					"$(PROJECT_DIR)/HelloAgainC/dependencies/lib",
-					"$(PROJECT_DIR)/HelloAgainC/dependencies/debug/lib",
-				);
+				LIBRARY_SEARCH_PATHS = "$PROJECT_DIR/HelloAgainC/vcpkg_installed/arm64-osx/debug/lib/**";
 				"LIBRARY_SEARCH_PATHS[arch=*]" = "$PROJECT_DIR/HelloAgainC/vcpkg_installed/arm64-osx/debug/lib/**";
 				PRODUCT_NAME = "$(TARGET_NAME)-DEV";
 			};
@@ -807,8 +1340,6 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(PROJECT_DIR)/HelloAgainC/vcpkg_installed/arm64-osx/lib",
 					"$(PROJECT_DIR)/HelloAgainC/vcpkg_installed/arm64-osx/debug/lib",
-					"$(PROJECT_DIR)/HelloAgainC/dependencies/lib",
-					"$(PROJECT_DIR)/HelloAgainC/dependencies/debug/lib",
 				);
 				"LIBRARY_SEARCH_PATHS[arch=*]" = "$PROJECT_DIR/HelloAgainC/vcpkg_installed/arm64-osx/lib/**";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -818,6 +1349,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		EC0490572B256B9C007906CC /* Build configuration list for PBXNativeTarget "HelloAgainC-DEBUG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC0490582B256B9C007906CC /* Debug */,
+				EC0490592B256B9C007906CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		EC39A9462B028E0400DDFFE1 /* Build configuration list for PBXProject "HelloAgainC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

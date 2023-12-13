@@ -1,2 +1,3 @@
 the-scales-driver/vcpkg_installed/**
 the-scales-backend/node_modules/**
+**/.DS_Store

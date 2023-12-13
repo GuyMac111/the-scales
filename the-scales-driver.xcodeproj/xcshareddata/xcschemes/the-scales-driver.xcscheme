@@ -14,25 +14,25 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EC04904A2B256B9C007906CC"
-               BuildableName = "the-scales-DEBUG"
-               BlueprintName = "the-scales-DEBUG"
-               ReferencedContainer = "container:HelloAgainC.xcodeproj">
+               BlueprintIdentifier = "EC39A94A2B028E0400DDFFE1"
+               BuildableName = "the-scales-driver"
+               BlueprintName = "the-scales-driver"
+               ReferencedContainer = "container:the-scales-driver.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
-      buildConfiguration = "Debug"
-      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
-      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      buildConfiguration = "Release"
+      selectedDebuggerIdentifier = ""
+      selectedLauncherIdentifier = "Xcode.IDEFoundation.Launcher.PosixSpawn"
       shouldUseLaunchSchemeArgsEnv = "YES"
       shouldAutocreateTestPlan = "YES">
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Debug"
-      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
-      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      buildConfiguration = "Release"
+      selectedDebuggerIdentifier = ""
+      selectedLauncherIdentifier = "Xcode.IDEFoundation.Launcher.PosixSpawn"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -44,18 +44,12 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EC04904A2B256B9C007906CC"
-            BuildableName = "the-scales-DEBUG"
-            BlueprintName = "the-scales-DEBUG"
-            ReferencedContainer = "container:HelloAgainC.xcodeproj">
+            BlueprintIdentifier = "EC39A94A2B028E0400DDFFE1"
+            BuildableName = "the-scales-driver"
+            BlueprintName = "the-scales-driver"
+            ReferencedContainer = "container:the-scales-driver.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
-      <CommandLineArguments>
-         <CommandLineArgument
-            argument = "79.5KG"
-            isEnabled = "YES">
-         </CommandLineArgument>
-      </CommandLineArguments>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -63,18 +57,19 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EC04904A2B256B9C007906CC"
-            BuildableName = "the-scales-DEBUG"
-            BlueprintName = "the-scales-DEBUG"
-            ReferencedContainer = "container:HelloAgainC.xcodeproj">
+            BlueprintIdentifier = "EC39A94A2B028E0400DDFFE1"
+            BuildableName = "the-scales-driver"
+            BlueprintName = "the-scales-driver"
+            ReferencedContainer = "container:the-scales-driver.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
-      buildConfiguration = "Debug">
+      buildConfiguration = "Release">
    </AnalyzeAction>
    <ArchiveAction
       buildConfiguration = "Release"

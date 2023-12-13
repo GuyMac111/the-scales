@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EC39A94A2B028E0400DDFFE1"
-               BuildableName = "the-scales"
-               BlueprintName = "the-scales"
-               ReferencedContainer = "container:HelloAgainC.xcodeproj">
+               BlueprintIdentifier = "EC04904A2B256B9C007906CC"
+               BuildableName = "the-scales-driver-DEBUG"
+               BlueprintName = "the-scales-driver-DEBUG"
+               ReferencedContainer = "container:the-scales-driver.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -44,10 +44,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EC39A94A2B028E0400DDFFE1"
-            BuildableName = "the-scales"
-            BlueprintName = "the-scales"
-            ReferencedContainer = "container:HelloAgainC.xcodeproj">
+            BlueprintIdentifier = "EC04904A2B256B9C007906CC"
+            BuildableName = "the-scales-driver-DEBUG"
+            BlueprintName = "the-scales-driver-DEBUG"
+            ReferencedContainer = "container:the-scales-driver.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <CommandLineArguments>
@@ -67,10 +67,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EC39A94A2B028E0400DDFFE1"
-            BuildableName = "the-scales"
-            BlueprintName = "the-scales"
-            ReferencedContainer = "container:HelloAgainC.xcodeproj">
+            BlueprintIdentifier = "EC04904A2B256B9C007906CC"
+            BuildableName = "the-scales-driver-DEBUG"
+            BlueprintName = "the-scales-driver-DEBUG"
+            ReferencedContainer = "container:the-scales-driver.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
@@ -78,7 +78,7 @@
       buildConfiguration = "Debug">
    </AnalyzeAction>
    <ArchiveAction
-      buildConfiguration = "Release"
+      buildConfiguration = "Debug"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>

@@ -326,8 +326,8 @@
 		EC0490412B256B40007906CC /* vcpkg-cmake_2023-05-04_arm64-osx.list */ = {isa = PBXFileReference; lastKnownFileType = text; path = "vcpkg-cmake_2023-05-04_arm64-osx.list"; sourceTree = "<group>"; };
 		EC0490422B256B40007906CC /* vcpkg-cmake-config_2022-02-06_arm64-osx.list */ = {isa = PBXFileReference; lastKnownFileType = text; path = "vcpkg-cmake-config_2022-02-06_arm64-osx.list"; sourceTree = "<group>"; };
 		EC0490432B256B40007906CC /* cpr_1.10.5_arm64-osx.list */ = {isa = PBXFileReference; lastKnownFileType = text; path = "cpr_1.10.5_arm64-osx.list"; sourceTree = "<group>"; };
-		EC04905A2B256B9C007906CC /* HelloAgainC-DEBUG-DEV */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "HelloAgainC-DEBUG-DEV"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC39A94B2B028E0400DDFFE1 /* HelloAgainC-DEV */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "HelloAgainC-DEV"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC04905A2B256B9C007906CC /* the-scales-DEBUG-DEV */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "the-scales-DEBUG-DEV"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC39A94B2B028E0400DDFFE1 /* the-scales-DEV */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "the-scales-DEV"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC5DD7502B183A8D004D19FE /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		EC5DD7522B183ACB004D19FE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		EC5DD7542B183B5E004D19FE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
@@ -1055,8 +1055,8 @@
 		EC39A94C2B028E0400DDFFE1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EC39A94B2B028E0400DDFFE1 /* HelloAgainC-DEV */,
-				EC04905A2B256B9C007906CC /* HelloAgainC-DEBUG-DEV */,
+				EC39A94B2B028E0400DDFFE1 /* the-scales-DEV */,
+				EC04905A2B256B9C007906CC /* the-scales-DEBUG-DEV */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1087,9 +1087,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EC04904A2B256B9C007906CC /* HelloAgainC-DEBUG */ = {
+		EC04904A2B256B9C007906CC /* the-scales-DEBUG */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EC0490572B256B9C007906CC /* Build configuration list for PBXNativeTarget "HelloAgainC-DEBUG" */;
+			buildConfigurationList = EC0490572B256B9C007906CC /* Build configuration list for PBXNativeTarget "the-scales-DEBUG" */;
 			buildPhases = (
 				EC04904B2B256B9C007906CC /* Sources */,
 				EC04904F2B256B9C007906CC /* Frameworks */,
@@ -1099,14 +1099,14 @@
 			);
 			dependencies = (
 			);
-			name = "HelloAgainC-DEBUG";
+			name = "the-scales-DEBUG";
 			productName = HelloAgainC;
-			productReference = EC04905A2B256B9C007906CC /* HelloAgainC-DEBUG-DEV */;
+			productReference = EC04905A2B256B9C007906CC /* the-scales-DEBUG-DEV */;
 			productType = "com.apple.product-type.tool";
 		};
-		EC39A94A2B028E0400DDFFE1 /* HelloAgainC */ = {
+		EC39A94A2B028E0400DDFFE1 /* the-scales */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EC39A9522B028E0400DDFFE1 /* Build configuration list for PBXNativeTarget "HelloAgainC" */;
+			buildConfigurationList = EC39A9522B028E0400DDFFE1 /* Build configuration list for PBXNativeTarget "the-scales" */;
 			buildPhases = (
 				EC39A9472B028E0400DDFFE1 /* Sources */,
 				EC39A9482B028E0400DDFFE1 /* Frameworks */,
@@ -1116,9 +1116,9 @@
 			);
 			dependencies = (
 			);
-			name = HelloAgainC;
+			name = "the-scales";
 			productName = HelloAgainC;
-			productReference = EC39A94B2B028E0400DDFFE1 /* HelloAgainC-DEV */;
+			productReference = EC39A94B2B028E0400DDFFE1 /* the-scales-DEV */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -1148,8 +1148,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EC39A94A2B028E0400DDFFE1 /* HelloAgainC */,
-				EC04904A2B256B9C007906CC /* HelloAgainC-DEBUG */,
+				EC39A94A2B028E0400DDFFE1 /* the-scales */,
+				EC04904A2B256B9C007906CC /* the-scales-DEBUG */,
 			);
 		};
 /* End PBXProject section */
@@ -1349,7 +1349,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EC0490572B256B9C007906CC /* Build configuration list for PBXNativeTarget "HelloAgainC-DEBUG" */ = {
+		EC0490572B256B9C007906CC /* Build configuration list for PBXNativeTarget "the-scales-DEBUG" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EC0490582B256B9C007906CC /* Debug */,
@@ -1367,7 +1367,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EC39A9522B028E0400DDFFE1 /* Build configuration list for PBXNativeTarget "HelloAgainC" */ = {
+		EC39A9522B028E0400DDFFE1 /* Build configuration list for PBXNativeTarget "the-scales" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EC39A9532B028E0400DDFFE1 /* Debug */,

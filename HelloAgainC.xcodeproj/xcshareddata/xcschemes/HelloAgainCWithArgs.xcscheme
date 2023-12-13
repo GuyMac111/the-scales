@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "EC04904A2B256B9C007906CC"
-               BuildableName = "HelloAgainC-DEBUG"
-               BlueprintName = "HelloAgainC-DEBUG"
+               BuildableName = "the-scales-DEBUG"
+               BlueprintName = "the-scales-DEBUG"
                ReferencedContainer = "container:HelloAgainC.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,8 +45,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EC04904A2B256B9C007906CC"
-            BuildableName = "HelloAgainC-DEBUG"
-            BlueprintName = "HelloAgainC-DEBUG"
+            BuildableName = "the-scales-DEBUG"
+            BlueprintName = "the-scales-DEBUG"
             ReferencedContainer = "container:HelloAgainC.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -67,8 +67,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EC04904A2B256B9C007906CC"
-            BuildableName = "HelloAgainC-DEBUG"
-            BlueprintName = "HelloAgainC-DEBUG"
+            BuildableName = "the-scales-DEBUG"
+            BlueprintName = "the-scales-DEBUG"
             ReferencedContainer = "container:HelloAgainC.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

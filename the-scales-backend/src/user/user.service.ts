@@ -3,7 +3,7 @@ import { IUser } from './types';
 
 
 const userTable: Record<string, IUser> = {
-  testUser: {
+  ['test-user-id']: {
     uuid: 'test-user-id',
     name: 'guy mclean',
     email: 'guymac111@googlemail.com',

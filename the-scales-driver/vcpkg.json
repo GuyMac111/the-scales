@@ -2,9 +2,9 @@
   "name": "the-scales",
   "version": "0.0.1",
   "description": "Smart-Scale Driver Software",
-  "homepage": "",
   "license": "MIT",
   "dependencies": [
-    "cpr"
+    "cpr",
+    "jsoncpp"
   ]
 }

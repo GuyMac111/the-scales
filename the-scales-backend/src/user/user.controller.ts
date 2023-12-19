@@ -4,10 +4,14 @@ import { UserService } from './user.service';
 
 @Controller('user')
 export class UserController {
-  constructor(private service: UserService) {}
+  constructor(private readonly service: UserService) {}
 
   @Get()
   getUser(): IUser {
-    return this.service.getUser('test-user-id');
+    const result = this.service.getUser('test-user-id');
+
+    console.log(this.service);
+    console.log(result);
+    return result;
   }
 }

@@ -15,6 +15,10 @@ static string YourMumsFunction(const char **argv) {
     return weight;
 }
 
+static string boolToString(bool val) {
+    return val ? "true" : "false";
+}
+
 int main(int argc, const char * argv[]) {
     int yourMum = 4;
     yourMum++;
@@ -24,6 +28,7 @@ int main(int argc, const char * argv[]) {
     delete fmtr;
     
     ifstream configStream("~/Projects/the-scales/the-scales-driver/config.json");
+    cout << boolToString(configStream.good()) << endl;
     stringstream buffer;
     buffer << configStream.rdbuf();
     Value configJson;
